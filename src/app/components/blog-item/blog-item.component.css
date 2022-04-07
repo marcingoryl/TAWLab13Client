@@ -1,0 +1,9 @@
+div{
+  widht: min-content;
+  border-style: solid;
+  border-color: black;
+  border-width: 8px;
+  margin: 10px;
+  padding-bottom: 20px;
+  background-color: white;
+}

@@ -1,0 +1,20 @@
+p {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+a {
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  text-decoration-color: transparent;
+  color: white;
+}
+
+a:hover {
+  background-color: darkgreen;
+  text-decoration-color: transparent;
+  color: white;
+}
