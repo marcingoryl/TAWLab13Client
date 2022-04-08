@@ -21,7 +21,7 @@ export class SearchBarComponent implements OnInit {
   }
 
   sendFilter($event: string):void{
-    this.router.navigate(['/'], {queryParams:{name:this.filterText}});
+    this.router.navigate(['/blog'], {queryParams:{name:this.filterText}});
     this.name.emit(this.filterText);
 }
 
