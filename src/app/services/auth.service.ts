@@ -36,6 +36,8 @@ export class AuthService {
     return this.http.post(this.url + '/user/create', credentials);
   }
 
+
+
   logout() {
     return this.http.delete(this.url + '/user/logout/' + this.currentUser.userId)
       .pipe(

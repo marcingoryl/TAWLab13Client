@@ -1,0 +1,22 @@
+<div class="container">
+  <form action="post" autocomplete="off" method="POST">
+    <div class="input-group">
+      <input [(ngModel)]="credentials.image" type="text" class="form-control"
+             name="postimage" placeholder="Link do obrazka" title="Image">
+    </div>
+
+    <div class="input-group">
+      <input [(ngModel)]="credentials.title" type="text" class="form-control"
+             name="title" placeholder="Tytuł" title="Title">
+    </div>
+
+    <div class="input-group">
+      <input [(ngModel)]="credentials.text" type="text" class="form-control"
+             name="text" placeholder="Tekst" title="Text">
+    </div>
+
+    <button *ngIf="authService.isLoggedIn()" (click)="createPost()" class="btn btn-primary" type="submit" title="Create post">
+      Dodaj nowy post
+    </button>
+  </form>
+</div>

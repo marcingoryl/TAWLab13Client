@@ -23,6 +23,7 @@ import { SignupComponent } from './components/signup/signup.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NewpostComponent } from './components/newpost/newpost.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +41,7 @@ import { NewpostComponent } from './components/newpost/newpost.component';
     LoginComponent,
     SignupComponent,
     NavbarComponent,
-    NewpostComponent
+    NewpostComponent,
   ],
     imports: [
         BrowserModule,
